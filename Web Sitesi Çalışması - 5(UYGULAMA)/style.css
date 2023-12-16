@@ -1,0 +1,111 @@
+* {
+    padding: 0px;
+    margin: 0px
+}
+
+div {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    color: orangered;
+}
+
+#kaanacademy {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(resimler/kertenkele.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+}
+
+.kaanacademyyazi {
+    font-size: 20px;
+    text-shadow: 0px 0px 1px black;
+    background-color: lightgreen
+}
+
+.kurslar {
+    width: 100%;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
+
+.kurslarimiz {
+    padding-top: 10px;
+    width: 33.33%;
+    float: left;
+}
+
+.kurslarimiz:nth-child(1) {
+    background-image: url(resimler/gul.jpg);
+    background-position: center;
+}
+
+.kurslarimiz:nth-child(2) {
+    background-image: url(resimler/kahve.jpg);
+    background-position: 100%;
+}
+
+.kurslarimiz:nth-child(3) {
+    background-image: url(resimler/kalem.jpg);
+    background-position: center;
+}
+
+#aqua {
+    color: turquoise;
+    margin-top: 10px;
+}
+
+#yesil {
+    color: green;
+    margin-top: 10px;
+}
+
+#mor {
+    color: purple;
+    margin-top: 10px;
+}
+
+#hakkimizda {
+    background-color: tomato;
+    clear: both;
+    height: 385px;
+}
+
+#hakkimizda img {
+    width: 300px;
+    height: 250px;
+    border: 5px dashed turquoise;
+    margin: 20px;
+}
+
+#hakkimizda p {
+    font-family: 'Courier New', Courier, monospace;
+    white-space: pre-line;
+    color: black;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+#hakkimizda p::first-line {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 35px;
+    letter-spacing: 3px;
+}
+
+/* responsive ayarlama */
+
+@media screen and (max-width:992px) {
+    .kurslarimiz {
+        width: 100%;
+    }
+
+    #hakkimizda {
+        height: 420px;
+    }
+
+    .kaanacademyyazi {
+        width: 100%;
+    }
+}

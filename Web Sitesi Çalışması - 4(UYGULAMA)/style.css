@@ -1,0 +1,182 @@
+/* Kutuların genişliğini sabitleme*/
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Kutu genişlikleri*/
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* Satırlar */
+.row {
+    background-color: darkcyan;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Satırların yan yana gelmesi için */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Tepkisel resimler için */
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* col-yasla */
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    background-color: beige;
+    border-radius: 10px;
+}
+
+/* Küçük ekranlar için kutular (768px den daha küçük ekranlar için)*/
+@media screen and (max-width: 768px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+/* Kutu yükseklikleri */
+
+/* Üst Kısım*/
+#ust {
+    min-height: 50px;
+}
+
+#foto {
+    padding: 1px;
+
+}
+
+/* Sosyal medya ikonları*/
+#ikon {
+    height: 50px;
+    float: right;
+    margin-right: 20px;
+}
+
+#ikon img {
+    height: 50px;
+}
+/* Menü Alanı*/
+#menu {
+    min-height: 50px;
+}
+
+/* anamenü*/
+#menu #anamenu ul {
+    list-style-type: none;
+}
+
+#menu #anamenu ul li {
+    float: left;
+    width: 24%;
+    background-color: brown;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 1%;
+}
+
+#menu #anamenu a {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#menu #anamenu a:hover{
+    text-decoration: underline;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+/* Küçük ekranlar için menu alanı (768px den daha küçük ekranlar için)*/
+@media screen and (max-width: 768px) {
+    #menu #anamenu ul li {
+        width: 100%;
+        margin-top: 1%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #menu #anamenu a:hover {
+        width: 100%;
+        margin-top: 1%;
+    }
+}
+
+#orta {
+    min-height: 400px;
+}
+
+#alt {
+    min-height: 50px;
+}
+
+#alt #altmenu p{
+    text-align: center;
+    color: brown;
+}
+
+#alt #altmenu a{
+    text-decoration: none;
+    color: black;
+}
