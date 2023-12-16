@@ -1,0 +1,208 @@
+body {
+    background-image: url(resimler/fantasy-3077928_1920.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    object-fit: cover;
+    margin: 0px;
+    padding: 0px;
+}
+
+#header {
+    width: 100%;
+    height: 25px;
+    margin: 0px;
+}
+
+#isim {
+    color: bisque;
+    font-size: 19px;
+    font-family: Sofia;
+    font-weight: bold;
+    letter-spacing: 3.5px;
+    display: inline;
+    margin-left: 125px;
+}
+
+#isim:hover {
+    color: bisque;
+    font-size: 20px;
+    font-family: Sofia;
+    font-weight: 900;
+    letter-spacing: 3.5px;
+    display: inline;
+    margin-left: 125px;
+}
+
+.sosialmedia {
+    float: right;
+    background-color: bisque;
+    height: 25px;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 7px;
+}
+
+.sosialmedia:hover {
+    float: right;
+    background-color: bisque;
+    height: 25px;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 7px;
+    box-shadow: -2px 2px 5px black;
+}
+
+
+
+.sosialmedia a img {
+    width: 25px;
+    height: 25px;
+    margin-bottom: 5px;
+}
+
+#hr {
+    width: 100%;
+}
+
+#menu {
+    float: right;
+    width: 100%;
+    height: 75px;
+    margin: 0px;
+}
+
+#menu_ul {
+    list-style-type: none;
+    float: right;
+}
+
+#menu_ul li {
+    border-radius: 10px;
+    float: left;
+    padding: 10px;
+    margin-right: 50px;
+    background-color: gold;
+}
+
+#menu_ul li:hover {
+    border: 1px black solid;
+    border-radius: 10px;
+    box-shadow: -8px -8px 10px darkgray;
+    float: left;
+    padding: 10px;
+    margin-right: 50px;
+    background-color: gold;
+}
+
+#menu_ul li a {
+    color: gray;
+    font-family: "Sofia", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: capitalize;
+    text-decoration: none;
+    letter-spacing: 1.3px;
+}
+
+#menu_ul li a:hover {
+    color: gray;
+    font-family: "Sofia", sans-serif;
+    text-decoration: underline;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: capitalize;
+    letter-spacing: 1.3px;
+}
+
+#icerik {
+    float: left;
+    width: 70%;
+    min-height: 1080px;
+}
+
+#buyuk {
+    margin-top: 50px;
+}
+
+.kutu {
+    background-color: antiquewhite;
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 40%;
+    height: 750px;
+    margin: 2%;
+    padding: 2%;
+    overflow: hidden;
+    float: left;
+}
+
+img {
+    width: 100%;
+}
+
+hr {
+    width: 80%;
+}
+
+p {
+    color: black;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    text-indent: 15px;
+    text-align: justify;
+    word-spacing: 2px;
+}
+
+p span {
+    font-weight: bolder;
+}
+
+#yanmenu {
+    width: 29.5%;
+    min-height: 1080px;
+    float: left;
+    margin: 0px;
+}
+
+#yan_menu1 {
+    margin-top: 250px;
+}
+
+#yanmenu_ul {
+    list-style-type: none;
+}
+
+ul .li {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#yanmenu_ul li {
+    list-style-type: none;
+    padding: 3px;
+    color: goldenrod;
+    margin: 10px;
+}
+
+#yanmenu_ul li a {
+    text-decoration: none;
+    padding: 3px;
+    color: antiquewhite;
+}
+
+#yanmenu_ul li a:hover {
+    text-decoration: underline;
+    padding: 3px;
+    color: gold;
+    font-size: 18px;
+    font-weight: bold;
+}
+

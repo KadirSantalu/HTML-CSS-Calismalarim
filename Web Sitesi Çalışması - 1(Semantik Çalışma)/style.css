@@ -1,0 +1,172 @@
+/* CSS DOSYASI */
+
+/* Boşlukları sıfırla */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#sayfa {
+    width: 900px;
+    border-style: solid;
+    border-color: blue;
+    border-width: 1px;
+    min-height: 600px;
+    margin: auto;
+}
+
+/* Banner */
+#banner {
+    width: 900px;
+    height: 100px;
+    margin: auto;
+}
+
+/* Logo */
+#logo {
+    width: 100px;
+    height: 80px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    float: left;
+}
+
+#resim1 {
+    width: 100px;
+    height: 80px;
+}
+
+/* Sosyal Medya İkonları*/
+#sosyal {
+    width: 180px;
+    height: 40px;
+    float: right;
+    position: relative;
+    top: 50px;
+    right: 10px;
+}
+
+.resimler {
+    width: 57.2px;
+    height: 40px;
+}
+
+/* Anamenü */
+#anamenu {
+    width: 900px;
+    background-color: gold;
+    height: 50px;
+    margin: auto;
+}
+
+#anamenu ul {
+    list-style-type: none;
+}
+
+#anamenu ul li {
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 8px;
+    border-color: blanchedalmond;
+    background-color: goldenrod;
+    width: 205px;
+    float: left;
+    text-align: center;
+    padding: 4px;
+    margin-left: 5px;
+    position: relative;
+    top: 8px;
+}
+
+#anamenu ul a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: chocolate;
+}
+
+#anamenu ul a:active {
+    color: rgb(146, 139, 61);
+}
+
+#anamenu ul a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+/* İçerik ve Yan Menü*/
+#icerik {
+    width: 600px;
+    background-color: rgb(255, 162, 0);
+    height: 400px;
+    float: left;
+    overflow: hidden;
+}
+
+#yanmenu {
+    width: 300px;
+    background-color: rgb(30, 144, 93);
+    height: 400px;
+    float: left;
+    overflow: hidden;
+}
+
+#resim2 {
+    float: left;
+    width: 300px;
+    margin: 15px;
+}
+
+.metin {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: rgb(27, 14, 107);
+    text-indent: 25px;
+}
+
+.baslik {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 25px;
+    color: red;
+}
+
+.baslik2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 25px;
+    color: red;
+    text-align: center;
+}
+
+
+.metin2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: rgb(107, 14, 47);
+    text-indent: 25px;
+}
+
+/* Alt Menü */
+#altmenu {
+    width: 900px;
+    height: 50px;
+    background-color: rgb(249, 204, 82);
+    float: left;
+    overflow: hidden;
+    text-align: center;
+}
+
+#altmenu a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+#altmenu a:hover {
+    color: antiquewhite;
+    text-decoration: underline;
+}
